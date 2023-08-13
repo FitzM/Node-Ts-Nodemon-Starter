@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                  // or the desired ECMAScript version
+    "module": "CommonJS",             // Use CommonJS for Node.js
+    "outDir": "./dist",               // Output directory for transpiled JavaScript
+    "rootDir": "./src",               // Source directory for TypeScript files
+    "strict": true,                   // Enable strict type checking
+    "noImplicitAny": true,            // Variables and Parmaters can not have implict Any type
+    "noImplicitReturns": true,        // Return types for functions have to be defined/declared
+    "noUnusedLocals": true,           // Identifies any unsused local variables
+    "noUnusedParameters": true,       // identifies unused Paramaters 
+    "sourceMap": true,                // Source map is enabled to help debugging
+    "inlineSourceMap": true           // Inline source map to help debugging
+    
+    // Add other necessary configuration options
+  },
+  "include": ["src/**/*.ts"], // Specify the directories where TypeScript files are located
+  "exclude": ["node_modules"] // Exclude node_modules from compilation
+}
