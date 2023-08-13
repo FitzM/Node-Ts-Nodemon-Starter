@@ -12,6 +12,8 @@ I was having a hard time finding a template just to get the basics started for a
 - This repo is for personal use so it probably won't get updated by me unless it's specifically requested or something stops working
 - There are extra emit settings enabled in the tsconfig.json file to increase enforced settings by TS such as no unused variables/paramaters and no implecet 'any' types.
 - I threw this together quickly for a starter template so if you see anthing that isn't "best practices".. sorry about that. 
+- There is a launch.json file for debugging in VSCode however I haven't configured it with anything past the initial creation. 
+To Debug all I did was change the debugger tab to `Run Script: Start` and the debugger worked great. 
 
 
 ### Commands:
