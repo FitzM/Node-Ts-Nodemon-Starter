@@ -14,6 +14,6 @@
     
     // Add other necessary configuration options
   },
-  "include": ["src/**/*.ts"], // Specify the directories where TypeScript files are located
+  "include": ["src/**/*.ts", "src/index.ts"], // Specify the directories where TypeScript files are located
   "exclude": ["node_modules"] // Exclude node_modules from compilation
 }
