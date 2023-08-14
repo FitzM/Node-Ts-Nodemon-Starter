@@ -35,3 +35,9 @@ code .  \\ Opens VSCode in the current directory
 `npm start` 
 
 - This actually runs `nodemon --exec ts-node src/index.ts` This transpiles the code and then nodemon watches the files for changes on save, if you save it will re-transpile and update your changes live. Think of "Hot Reload" although i'm pretty sure it's technically different. 
+
+#### To just transpile the code from TS to JS and generated a .js in the dist directory
+
+`npx tsc src/index.ts`
+
+- tsc isn't actually installed directly, ts-node doesn't create a .js file in your directory.
