@@ -24,19 +24,20 @@ cd Node-Ts-Nodemon-Starter
 npm install
 code .  \\ Opens VSCode in the current directory
 ```
-#### To transpile TS to JS and run the file run :
+#### To transpile TS to JS (located in dist) and run the file run :
 
 ```npm test```
 
-- This actually runs `ts-node src/index.ts` 
-
+- This actually runs `tsup src/index.ts && ts-node src/index.ts` 
+- it runs the "pretest" first which creats the .js file in dist and then runs the index.ts file
+  
 #### To transpile your code, run it _and_ watch it run:
 
 `npm start` 
 
 - This actually runs `nodemon --exec ts-node src/index.ts` This transpiles the code and then nodemon watches the files for changes on save, if you save it will re-transpile and update your changes live. Think of "Hot Reload" although i'm pretty sure it's technically different. 
 
-#### To just transpile the code from TS to JS and generated a .js in the dist directory
+#### To just transpile the code from TS to JS and generated a .js in the src directory
 
 `npx tsc src/index.ts`
 
