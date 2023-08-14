@@ -17,6 +17,13 @@ To Debug all I did was change the debugger tab to `Run Script: Start` and the de
 
 
 ### Commands:
+### To get started clone the repo and then open up your editor, mine is VSCode
+```
+git clone https://github.com/FitzM/Node-Ts-Nodemon-Starter.git
+cd Node-ts-Nodemon-Starter
+npm install
+code .  \\ Opens VSCode in the current directory
+```
 #### To transpile TS to JS and run the file run :
 
 ```npm test```
